@@ -1,3 +1,5 @@
+Links/Paths for the Portfolio website are shown as below:
+
 https://jibarra72.github.io/Portfolio/HomePage.html
 https://jibarra72.github.io/Portfolio/AboutMe.html
 https://jibarra72.github.io/Portfolio/Experience.html
