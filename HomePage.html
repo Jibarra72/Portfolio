@@ -1,0 +1,187 @@
+<head>
+    <title>
+        Home Page: Joshua Ibarra
+    </title>
+
+    <style>
+        /*setting the background*/
+        body{
+        background-image: url("silver background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed ;
+        }
+
+        /* this is to set the navigation bar */
+        ul
+       {
+           list-style: none;
+           margin: 0%;
+           padding: 0%;
+           overflow: hidden;
+           background-color: aliceblue;
+       }
+
+       /* this rule defines the elements to align to the left */
+       li
+       {
+           float: left;
+           border-right: 1px solid royalblue;
+       }
+
+       /* this rule is to set the border in the navigation bar */
+       li:last-child
+       {
+           border-right: none;
+       }
+
+       /* displays the hover color as blue and text color as white */
+       li a:hover
+       {
+           color: white;
+           background-color: #008CBA;
+       }
+
+       /* aligning header 1 and setting the color to black */
+       h1
+       {
+           text-align: center;
+           text-transform: uppercase;
+           color: solid black ;
+       }
+
+       /* setting the style for paragraph */
+       p
+       {
+           text-indent: 50px;
+           letter-spacing: 3px;
+           text-align: justify;
+       }
+
+       /* adds spacing between the links in the navigation bar*/
+       li a
+       {
+         display:block;
+         text-align: center;
+         padding: 14px 14px;
+         text-decoration: none;
+       }
+
+       /* color of letters in the navigation bar*/
+       a
+       {
+           text-decoration: none;
+           color: solid black;
+       }
+
+       /*this rules to set the style for the table in the webapage*/
+       table, td, th {
+           border: 2px solid black;
+       }
+       table{
+           border-collapse: collapse;
+           width: 100px;
+       }
+       td{
+           height: 50px;
+           vertical-align: bottom;
+       }
+        /* input[type=text]{
+           width: 100px;
+           box-sizing: border-box;
+           border: 2px solid royalblue;
+           border-radius: 5px;
+           font-size: 16px;
+           background-color: white;
+           background-image: url("C:\Users\aquag\OneDrive\Pictures\maginifiying glass mini.jpg");
+           background-position: 30px 30px;
+           background-repeat: no-repeat;
+           padding: 12px 20px 12 px 40;
+           top: 20px;
+           left: 1635px;
+           bottom: 800x;
+           position: absolute;
+       } */
+        /*this is the rule for defining the profile pciture*/
+        div.logo{ /*positioning my logo on the webpage*/
+            display: inline;
+            vertical-align: left;
+            float: center;
+        }
+        div.logo-text { /*postion text within site branding*/
+            display: inline-block;
+            width: 350px;
+            margin: auto;
+            vertical-align: right; 
+        }
+        /*adding the rule for the footer section of the webpage*/
+        footer{
+            background-color: #bbb;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        /*rule for defining the article*/
+        article{
+            float: left;
+            padding: 10px;
+            width: auto;
+            background-color: wheat;
+            height: 400px;
+        }
+        /*define the rule for section*/
+        section::after{
+            content: " ";
+            display: table;
+            clear: both;
+        }
+        #frame { position:absolute; top: 250px; bottom: 0px; right: 80px;
+            width: 500px; height: 300; background-color:rgb(166,196,200);
+            color:rgb(99,97,97);
+        }
+        /*defines the rule for coulumn*/
+        .cdivider{
+            column-count: 3;
+            column-gap: 40px;
+            column-rule-style: solid;
+            column-rule-width: 1px;
+            column-rule-color: lightblue;
+        }
+   </style>
+
+<body>
+   <ul>
+        <li><a class="active" href=C:\Users\aquag\OneDrive\Documents\WebDevProject\HomePage.html>Home</a></li>
+        <li><a class="active" href=C:\Users\aquag\OneDrive\Documents\WebDevProject\AboutMe.html>About Me</a></li>
+        <li><a class="active" href=C:\Users\aquag\OneDrive\Documents\WebDevProject\Experience.html>Experience</a></li>        
+        <li><a class="active" href=C:\Users\aquag\OneDrive\Documents\WebDevProject\Projects.html>Projects</a></li>
+   </ul>
+   <div class = "logo">
+    <img src = "C:\Users\aquag\OneDrive\Documents\WebDevProject\Profile pic.jpg" style = "float: center; height: 200px; border: 2px solid black"
+    alt = "profile picture">
+    <h1 style = "position: center;"> Joshua Ibarra</h1>
+    </div>
+
+<!-- <div id = "frame">
+    <h2>Projects</h2>
+    <p>This text is stylized with some text formating properties
+    <a target="blank" href="home.html">Home page</a> link.</p>
+</div> -->
+
+    <!-- <div>
+    </section>
+        <article>
+            <h1>portfolio</h1>
+            <p>This is the text to be displayed</p>
+        </article>
+    <section> 
+    </div> -->
+
+   <footer>
+       <a>Joshua Ibarra's Portfolio</a>
+   </footer>
+
+   <!-- <form>
+       <input style="float: rigtht" type="text" name="search" placeholder="Search...">        
+   <form> -->
+</body>
+</html>
