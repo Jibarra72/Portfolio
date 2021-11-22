@@ -1,5 +1,6 @@
 Link for this Githib repository: https:
-//github.com/Jibarra72/Portfolio.git
+
+github.com/Jibarra72/Portfolio.git
 
 Links/Paths for the Portfolio website are shown as below:
 
