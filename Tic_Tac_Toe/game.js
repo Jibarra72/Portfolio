@@ -1,3 +1,4 @@
+//code obtained from: https://canvas.uiw.edu/courses/6930/files/1767240?module_item_id=1428172
 const statusDisplay = document.querySelector('.game--status');
 
 let gameActive = true;
