@@ -1,3 +1,4 @@
+    //code obtained from: https://canvas.uiw.edu/courses/6930/files/1804826?module_item_id=1436512
     //Attach an event listener to the window
     window.addEventListener('keydown', function(e){
 
