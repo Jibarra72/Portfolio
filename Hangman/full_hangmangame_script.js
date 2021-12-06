@@ -1,3 +1,4 @@
+//code obtained from: https://canvas.uiw.edu/courses/6930/files/1795748?module_item_id=1434272
 const word = document.getElementById('word');
 const incorrect = document.getElementById('incorrect');
 const incorrectLettersEl = document.querySelector('#incorrect p');
